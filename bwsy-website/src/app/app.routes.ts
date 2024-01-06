@@ -1,3 +1,9 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { IntroComponent } from './intro';
+
+export const routes: Routes = [
+  { path: '', component: IntroComponent },
+
+  { path: '**', redirectTo: '' },
+];
