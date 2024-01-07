@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 * {
   position: relative;
-  font-family: Calibri, sans-serif;
-  font-size: 14px;
+  font-family: Raleway, sans-serif;
 }
 
 body {
+  background-color: #c8dbec;
   margin: 0px;
   padding: 0px;
 }
