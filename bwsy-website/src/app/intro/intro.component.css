@@ -1,6 +1,50 @@
 * {
-  margin: 20px;
-  padding: 0px;
+  /* margin: 20px; */
+  /* padding: 0px; */
 
   font-size: 30px;
+}
+
+.profileCard {
+  height: 50vw;
+  width: 100vw;
+  background-image: url(../../assets/profPic.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.profileCardWrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  background-color: #000000;
+  opacity: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileCard p {
+  margin: 0%;
+  padding: 0%;
+  color: #ffffff;
+  font-size: 55px;
+  letter-spacing: 0.5em;
+}
+
+.intro {
+  background-color: #dff1ff;
+  margin: 10% 20%;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  border: 3px solid #33383b;
+}
+
+.intro p {
+  margin: 0%;
+  padding: 0%;
 }
